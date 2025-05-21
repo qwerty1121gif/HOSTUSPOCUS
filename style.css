@@ -216,7 +216,8 @@ html {
     color: #C5C5C5;
 }
 .container__banner a {
-    padding-top: 30px;
+    max-width: 20px;
+    max-height: 20px;
     text-decoration: none;
 }
 .butttom a {
@@ -307,9 +308,6 @@ html {
     transition: all 0.4s;
     color: #FFF;
     background-color: #DE3C3C;
-    border-radius: 4px;
-    justify-content: center;
-    align-items: center;
 
 }
 .shared {
@@ -453,4 +451,83 @@ html {
     text-align: center;
     margin-top: 280px;
     width: 840px;
+    
+}
+.second a {
+    text-decoration: none;
+    color: #212121;
+    display: block;
+}
+.first h1 {
+    padding-top: 60px;
+    padding-bottom: 2px;
+}
+.first p {
+    padding-bottom: 30px;
+}
+.second .chat, .getstart{
+    border: 1px solid #212121;
+    padding: 13px 37px;
+    border-radius: 4px;
+}
+.second {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 62px;
+}
+.chat:hover {
+    background-color: #DE3C3C;
+    color: #FFF;
+}
+.chat {
+    transition: all 0.4s;
+    transition: all 0.4s;
+}
+.getstart {
+    transition: all 0.4s;
+    transition: all 0.4s;
+}
+.getstart:hover {
+    background-color: #DE3C3C;
+    color: #FFF;
+}
+@media only screen and (max-width: 1200px) {
+    .header__logo {
+        margin-left: 40px;
+    }
+    .section__logo {
+        margin-left: 40px;
+    }
+    .wrapper1 {
+        margin-left: 40px;
+        
+    }
+    .container__plans {
+        grid-template-columns: repeat(2, 270px);
+    }
+    .container {
+        width: 993px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+    .header__wrapper {
+        font-size: 13px;
+        gap: 30px;
+    }
+    .container__plans {
+        
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+}
+@media only screen and (max-width: 480px) {
+    
+}
+@media only screen and (max-width: 320px) {
+    
 }
