@@ -216,8 +216,7 @@ html {
     color: #C5C5C5;
 }
 .container__banner a {
-    max-width: 20px;
-    max-height: 20px;
+    padding-top: 30px;
     text-decoration: none;
 }
 .butttom a {
@@ -308,6 +307,9 @@ html {
     transition: all 0.4s;
     color: #FFF;
     background-color: #DE3C3C;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
 
 }
 .shared {
@@ -451,7 +453,6 @@ html {
     text-align: center;
     margin-top: 280px;
     width: 840px;
-    
 }
 .second a {
     text-decoration: none;
