@@ -269,7 +269,7 @@ html, body {
     font-size: 36px;
     margin-bottom: 15px;
     text-align: center;
-    margin: o auto;
+    margin: 0 auto;
 }
 
 .track__text {
@@ -418,6 +418,10 @@ html, body {
     text-align: center;
 }
 
+.pricing__small-text-1 {
+    margin-bottom: 65px;
+    text-align: center;
+}
 .pricing__small-text {
     margin-bottom: 40px;
     text-align: center;
